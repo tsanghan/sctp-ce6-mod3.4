@@ -6,12 +6,12 @@
 
 'use strict';
 
-const express = require('express');
+import express from 'express';
 
 // Constants
 const PORT = 8080;
 const HOST = '0.0.0.0';
-const OS = require('os');
+import OS from 'os';
 const ENV = 'DEV';
 
 
