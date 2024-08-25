@@ -19,14 +19,14 @@ const ENV = 'DEV';
 const app = express();
 app.get('/', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from Node!';
-  res.send(msg);
+  // const msg = 'Hello from tsanghan-ce6-Node!';
+  res.json({"Hello":"from tsanghan-ce6-Node!"});
 });
 
 app.get('/test', (req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello from /test Node!';
-  res.send(msg);
+  const msg = 'Hello from /test tsanghan-ce6-Node!';
+  res.json({"Hello":"from /test tsanghan-ce6-Node!"});
 });
 
 app.listen(PORT, HOST);
