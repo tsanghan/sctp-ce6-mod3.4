@@ -2,7 +2,7 @@
 1. The creation of container images using `docker build` command.
 2. Running of container instances from container images using `docker run` command.
 3. Multi-stage build techniques with distroless images.
-4. Please read [node/Dockerfile](node/Dockerfile) and [python/Dockerfile](python/Dockerfile) for details
+4. Please read [node/Dockerfile](node/Dockerfile) and [python/Dockerfile](python/Dockerfile) for details.
 
 ### To build the container images
 ```
