@@ -1,22 +1,3 @@
-# ARG PYTHON_VERSION=3.11.5
-# FROM python:${PYTHON_VERSION}-slim as base
-
-# WORKDIR /app
-
-# COPY . .
-
-# # Install dependencies
-# RUN python -m pip install -r requirements.txt
-
-# ENV APP_PORT=8080
-
-# # Expose the port that the application listens on.
-# EXPOSE ${APP_PORT}
-
-# # Run the application.
-# CMD python app.py
-
-
 # Build a virtualenv using the appropriate Debian release
 # * Install python3-venv for the built-in Python3 venv module (not installed by default)
 # * Install gcc libpython3-dev to compile C Python modules
