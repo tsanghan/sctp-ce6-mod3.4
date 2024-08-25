@@ -43,7 +43,7 @@ rm test.sh
 docker rm $(docker ps | grep "sctp-ce6-mod3.4" | awk '{print $1}') --force
 ```
 
-### TO delete container images
+### To delete container images
 ```
 docker rmi $(docker images | grep "sctp-ce6-mod3.4" | awk '{print $3}')
 ```
